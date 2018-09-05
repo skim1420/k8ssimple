@@ -17,7 +17,7 @@ spec:
         k8ssimple-service: prod
     spec:
       containers:
-      - image: gcr.io/spinnaker-1022/k8ssimple:release
+      - image: gcr.io/spinnaker-1022/k8ssimple
         name: k8ssimple-prod
         ports:
         - containerPort: 80
