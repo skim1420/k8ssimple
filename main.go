@@ -11,6 +11,6 @@ func main() {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-  io.WriteString(w, "<body style='background-color: dodgerblue'><h1>Hello simple!</h1></body>")
+  io.WriteString(w, "<body style='background-color: yellow'><h1>Hello simple!</h1></body>")
 }
 
